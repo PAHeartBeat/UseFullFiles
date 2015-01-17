@@ -1,0 +1,23 @@
+<linker>
+	<assembly fullname="mscorlib">
+		<namespace fullname="System" preserve="all"/>
+		<namespace fullname="System.IO" preserve="all"/>
+		<namespace fullname="System.Text" preserve="all"/>
+		<namespace fullname="System.Reflection" preserve="all"/>
+		<namespace fullname="System.Collections" preserve="all"/>
+		<namespace fullname="System.Collections.Generic" preserve="all"/>
+		<namespace fullname="System.Security.Cryptography" preserve="all"/>
+		<namespace fullname="System.Runtime.InteropServices" preserve="all"/>
+		<namespace fullname="System.Runtime.Serialization.Formatters.Binary" preserve="all"/>
+	</assembly>
+
+	<assembly fullname="System">
+		<namespace fullname="System.Net" preserve="all"/>
+		<namespace fullname="System.ComponentModel" preserve="all"/>
+		<namespace fullname="System.Text.RegularExpressions" preserve="all"/>
+	</assembly>
+
+	<assembly fullname="System.Xml">
+		<namespace fullname="System.Xml.Serialization" preserve="all"/>
+	</assembly>
+</linker>
